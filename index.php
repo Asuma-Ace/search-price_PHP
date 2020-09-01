@@ -137,10 +137,3 @@ $token = $_SESSION['token'];
 
 </body>
 </html>
-<?php
-// unset($_SESSION['search'], $_SESSION['token']);
-// echo '<pre>';
-// var_dump($_POST);
-// var_dump($_SESSION);
-// echo '</pre>';
-?>
