@@ -14,6 +14,9 @@
 
 ![sample image2](sample_img2.png)
 
+## LICENSE
+This software is released under the MIT License, see LICENSE.
+
 ## NOTE
 I don't test environments under Linux and Mac.
 
