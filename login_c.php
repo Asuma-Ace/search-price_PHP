@@ -140,11 +140,11 @@ if (isset($_SESSION['id'])) {
               トップへ戻る
             </button>
           </p>
-          <p>
+          <!-- <p>
             <button class="btn btn-blue-grey mt-2 mb-2" type="button" onclick="location.href='login_m.php'">
               ログイン情報を編集する
             </button>
-          </p>
+          </p> -->
         </div>
       </div>
     </div>

@@ -78,7 +78,6 @@ $token = $_SESSION['token'];
 
       <!-- mail address -->
       <div class="card-body text-center mail_box">
-
         <h2 class="h3 card-title text-center mt-2">メールアドレスでログイン</h2>
 
         <form method="POST" action="login_c.php">
@@ -119,7 +118,6 @@ $token = $_SESSION['token'];
 
       <!-- sns -->
       <div class="card-body text-center snsbox">
-
         <h3 class="h3 card-title text-center mt-2">SNSアカウントでログイン</h3>
 
         <form method="POST" action="" class="mt-3 sns sns_top">
