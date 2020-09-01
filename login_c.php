@@ -38,9 +38,11 @@ if (!empty($email) && !empty($password)) {
     $_SESSION['time'] = time();
     $_SESSION['save'] = $_POST['save'];
 
+    $two_week = 60*60*24*14;
+
     if ($_POST['save'] === 'on') {
-      setcookie('email', $email,time()+60*60*24*14);
-      setcookie('password', $password, time()+60*60*24*14);
+      setcookie('email', $email,time()+$two_week);
+      setcookie('password', $password, time()+$two_week);
     } else {
       setcookie('email', '', time()-3600);
       setcookie('password', '', time()-3600);
@@ -65,9 +67,12 @@ if (isset($_SESSION['id'])) {
   $login_out_url = 'logout.php';
   $login_out = 'ログアウト';
   $login_user = '<a href="login_m.php" class="login_user">' .$_SESSION['name'] . '</a>';
-  if ($_SESSION['save'] === 'on' && $_SESSION['time'] + 3600*24*30 > time()) {
+  $one_month = 3600*24*30;
+  $one_day = 3600*24;
+  
+  if ($_SESSION['save'] === 'on' && $_SESSION['time'] + $one_month > time()) {
     $_SESSION['time'] = time();
-  } elseif ($_SESSION['time'] + 3600*24 > time()) {
+  } elseif ($_SESSION['time'] + $one_day > time()) {
     $_SESSION['time'] = time();
   } else {
     header('Location: logout.php');
