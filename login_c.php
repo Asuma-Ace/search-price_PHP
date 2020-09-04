@@ -4,9 +4,8 @@ session_regenerate_id(TRUE);
 require('common.php');
 require('dbconnect.php');
 
-// エラーを表示
 ini_set('display_errors', 1);
-$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);    $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
+ini_set('error_reporting', E_ALL);
 
 if (isset($_POST['token'], $_SESSION['token'])) {
   $token = $_POST['token'];
@@ -29,7 +28,7 @@ if (mb_strlen($password) < 8) {
 }
 
 if (!empty($email) && !empty($password)) {
-  $login = $db->prepare('SELECT * FROM users WHERE email=? AND password=?');
+  $login = $db->prepare('SELECT * FROM heroku_30ebda75726157d.users WHERE email=? AND password=?');
   $login->execute([
     $email,
     sha1($password)
