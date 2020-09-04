@@ -1,10 +1,10 @@
 <?php
 function dbConnect(){
   $db = parse_url($_SERVER['CLEARDB_DATABASE_URL']);
-  $db['heroku_30ebda75726157d'] = ltrim($db['path'], '/');
-  $dsn = "mysql:host={$db['us-cdbr-east-02.cleardb.com']};dbname={$db['heroku_30ebda75726157d']};charset=utf8";
-  $user = $db['b080b700f88850'];
-  $password = $db['ad84688d'];
+  $db['dbname'] = ltrim($db['path'], '/');
+  $dsn = "mysql:host={$db['host']};dbname={$db['dbname']};charset=utf8";
+  $user = $db['user'];
+  $password = $db['pass'];
   $options = array(
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
@@ -14,6 +14,7 @@ function dbConnect(){
   return $dbh;
   }
   ini_set('display_errors', 1);
-ini_set('error_reporting', E_ALL);
+  ini_set('error_reporting', E_ALL);
   $dbh = dbConnect();
+
 ?>
