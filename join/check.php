@@ -3,9 +3,6 @@ session_start();
 require('common.php');
 require('../dbconnect.php');
 
-ini_set('display_errors', 1);
-ini_set('error_reporting', E_ALL);
-
 if (isset($_POST['token'], $_SESSION['token'])) {
   $token = $_POST['token'];
   if ($token !== $_SESSION['token']) {
@@ -36,7 +33,7 @@ if ($password_c !== $password) {
 }
 
 if (empty($error)) {
-  $user = $db->prepare('SELECT COUNT(*) AS cnt FROM heroku_30ebda75726157d.users WHERE email=?');
+  $user = $db->prepare('SELECT COUNT(*) AS cnt FROM users WHERE email=?');
   $user->execute([$email]);
   $record = $user->fetch();
   if ($record['cnt'] > 0) {

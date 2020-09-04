@@ -15,7 +15,7 @@ if (isset($_POST['token'], $_SESSION['token'])) {
 }
 
 if (!empty($_SESSION['join'])) {
-	$statement = $db->prepare('INSERT INTO heroku_30ebda75726157d.users SET name=?, email=?, password=?, created=NOW()');
+	$statement = $db->prepare('INSERT INTO users SET name=?, email=?, password=?, created=NOW()');
 	$statement->execute([
 		$_SESSION['join']['name'],
 		$_SESSION['join']['email'],
