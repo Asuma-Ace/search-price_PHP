@@ -13,6 +13,7 @@ try {
       PDO::ATTR_EMULATE_PREPARES => false,
     ]
   );
+  return $dbh;
 } catch(PDOException $e) {
     // header('Content-Type: text/plain; charset=UTF-8', true, 500);
     exit('データベース接続エラー: '. $e->getMessage());
