@@ -1,11 +1,10 @@
 <?php
 try {
-  $url = parse_url($_SERVER['CLEARDB_DATABASE_URL']);
-  $db_name = 'heroku_30ebda75726157d';
-  $db_host = 'us-cdbr-east-02.cleardb.com';
-  $user = 'b080b700f88850';
-  $password = 'ad84688d';
-  $dsn = 'mysql:dbname='.$db_name.';host='.$db_host.';charset=utf8';
+  $db = parse_url($_SERVER['mysql://b080b700f88850:ad84688d@us-cdbr-east-02.cleardb.com/heroku_30ebda75726157d?reconnect=true']);
+  $db['dbname'] = ltrim($db['path'], '/');
+  $dsn = "mysql:host={$db['host']};dbname={$db['dbname']};charset=utf8";
+  $user = $db['user'];
+  $password = $db['pass'];
 
   $dbh = new PDO($dsn, $user, $password, 
     [
