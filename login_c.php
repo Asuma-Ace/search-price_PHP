@@ -4,8 +4,9 @@ session_regenerate_id(TRUE);
 require('common.php');
 require('dbconnect.php');
 
+// エラーを表示
 ini_set('display_errors', 1);
-ini_set('error_reporting', E_ALL);
+$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);    $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
 
 if (isset($_POST['token'], $_SESSION['token'])) {
   $token = $_POST['token'];
