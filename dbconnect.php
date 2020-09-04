@@ -1,6 +1,6 @@
 <?php
 try {
-  $db = parse_url($_SERVER['mysql://b080b700f88850:ad84688d@us-cdbr-east-02.cleardb.com/heroku_30ebda75726157d?reconnect=true']);
+  $db = parse_url($_SERVER['CLEARDB_DATABASE_URL']);
   $db['dbname'] = ltrim($db['path'], '/');
   $dsn = "mysql:host={$db['host']};dbname={$db['dbname']};charset=utf8";
   $user = $db['user'];
