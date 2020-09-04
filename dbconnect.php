@@ -5,7 +5,7 @@ try {
   $db_host = 'us-cdbr-east-02.cleardb.com';
   $user = 'b080b700f88850';
   $password = 'ad84688d';
-  $dsn = 'mysql:dbname='.$db_name.';host='.$db_host.'charset=utf8';
+  $dsn = 'mysql:dbname='.$db_name.';host='.$db_host.';charset=utf8';
 
   $dbh = new PDO($dsn, $user, $password, 
     [
