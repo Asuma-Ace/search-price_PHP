@@ -29,7 +29,7 @@ if (mb_strlen($password) < 8) {
 }
 
 if (!empty($email) && !empty($password)) {
-  $login = $db->prepare('SELECT * FROM heroku_30ebda75726157d.users WHERE email=? AND password=?');
+  $login = $db->prepare('SELECT * FROM users WHERE email=? AND password=?');
   $login->execute([
     $email,
     sha1($password)
