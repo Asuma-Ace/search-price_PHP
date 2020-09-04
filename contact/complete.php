@@ -15,7 +15,7 @@ if (isset($_POST['token'], $_SESSION['token'])) {
 }
 
 if (!empty($_SESSION['contact'])) {
-	$statement = $db->prepare('INSERT INTO contact SET name=?, email=?, subject=?, inquiry=?, created=NOW()');
+	$statement = $db->prepare('INSERT INTO heroku_30ebda75726157d.contact SET name=?, email=?, subject=?, inquiry=?, created=NOW()');
 	$statement->execute([
 		$_SESSION['contact']['name'],
     $_SESSION['contact']['email'],

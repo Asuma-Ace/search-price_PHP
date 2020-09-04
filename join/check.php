@@ -33,7 +33,7 @@ if ($password_c !== $password) {
 }
 
 if (empty($error)) {
-  $user = $db->prepare('SELECT COUNT(*) AS cnt FROM users WHERE email=?');
+  $user = $db->prepare('SELECT COUNT(*) AS cnt FROM heroku_30ebda75726157d.users WHERE email=?');
   $user->execute([$email]);
   $record = $user->fetch();
   if ($record['cnt'] > 0) {
