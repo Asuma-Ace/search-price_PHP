@@ -4,6 +4,9 @@ session_regenerate_id(TRUE);
 require('../join/common.php');
 require('../dbconnect.php');
 
+ini_set('display_errors', 1);
+ini_set('error_reporting', E_ALL);
+
 if (isset($_POST['token'], $_SESSION['token'])) {
   $token = $_POST['token'];
   if ($token !== $_SESSION['token']) {
