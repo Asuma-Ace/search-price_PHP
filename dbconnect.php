@@ -13,8 +13,5 @@ function dbConnect(){
   $dbh = new PDO($dsn,$user,$password,$options);
   return $dbh;
   }
-    ini_set('display_errors', 1);
-ini_set('error_reporting', E_ALL);
   $dbh = dbConnect();
-
 ?>
