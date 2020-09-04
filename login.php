@@ -3,6 +3,9 @@ session_start();
 require('common.php');
 require('dbconnect.php');
 
+ini_set('display_errors', 1);
+ini_set('error_reporting', E_ALL);
+
 $email = isset($_SESSION['email']) ? $_SESSION['email'] : NULL;
 $password = isset($_SESSION['password']) ? $_SESSION['password'] : NULL;
 $error = isset($_SESSION['error']) ? $_SESSION['error'] : NULL;
