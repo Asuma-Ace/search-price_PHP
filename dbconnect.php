@@ -1,9 +1,13 @@
 <?php
 try {
-  $db = new PDO(
-    'mysql:dbname=search_price_db;host=127.0.0.1;charset=utf8',
-    'root',
-    'root',
+  $url = parse_url($_SERVER['CLEARDB_DATABASE_URL']);
+  $db_name = 'heroku_30ebda75726157d';
+  $db_host = 'us-cdbr-east-02.cleardb.com';
+  $user = 'b080b700f88850';
+  $password = 'ad84688d';
+  $dsn = 'mysql:dbname='.$db_name.';host='.$db_host.'charset=utf8';
+
+  $dbh = new PDO($dsn, $user, $password, 
     [
       PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
       PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
