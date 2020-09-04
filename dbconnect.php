@@ -1,7 +1,7 @@
 <?php
 try {
   $url = parse_url($_SERVER['CLEARDB_DATABASE_URL']);
-  $db_name = 'search-price-db';
+  $db_name = 'heroku_30ebda75726157d';
   $db_host = 'us-cdbr-east-02.cleardb.com';
   $user = 'b080b700f88850';
   $password = 'ad84688d';
