@@ -3,6 +3,7 @@ session_start();
 session_regenerate_id(TRUE);
 require('common.php');
 require('dbconnect.php');
+dbConnect();
 
 ini_set('display_errors', 1);
 ini_set('error_reporting', E_ALL);
