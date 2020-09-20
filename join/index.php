@@ -21,6 +21,7 @@ $token = $_SESSION['token'];
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="google-signin-client_id" content="511695979023-0kiein8ohpfrmbnq4uufn1cjmqavsuig.apps.googleusercontent.com">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -160,6 +161,8 @@ $token = $_SESSION['token'];
   <div class="copyright">&copy; 2020<?php if( date('Y') > "2020") {echo "-".date('Y');}?> Samua</div>
 </fotter>
 
+  <!-- Google API -->
+  <script src="https://apis.google.com/js/platform.js" async defer></script>
   <!-- jQuery -->
   <script src="js/jquery.min.js"></script>
   <!-- Bootstrap tooltips -->
