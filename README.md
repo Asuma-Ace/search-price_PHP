@@ -18,7 +18,7 @@
 ![sample image2](sample_img2.png)
 
 ## 動作環境
-Windows  
+Windows
 ※Linux,Macではテストを行えていません
 
 ## ライセンス
