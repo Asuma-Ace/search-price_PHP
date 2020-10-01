@@ -1,10 +1,9 @@
 # search_price
-## NAME
+## 名前
  最安値検索(yahoo!ショッピング&amp;楽天市場)  
- [the lowest price search (yahoo!shopping&rakuten-ichiba)]
 
-## OVERVIEW
-"最安値検索(yahoo!ショッピング&amp;楽天市場)"can arrange items you search for in order of lower price with PHP and yahoo&rakuten API.
+## 概要
+　検索したキーワードに関する商品を「Yahoo!ショッピング」と「楽天市場」から同時に価格の安い順に取得します。
 
 ## USAGE
 1. You press the button "新規会員登録" at the header of the page and register a new membership.
@@ -18,15 +17,16 @@
 
 ![sample image2](sample_img2.png)
 
-## LICENSE
+## 動作環境
+　Windows
+　※Linux,Macではテストを行えていません
+
+## ライセンス
 This software is released under the MIT License, see LICENSE.
 
-## NOTE
-I don't test environments under Linux and Mac.
+## 作者
+　三吉 明日真
 
-## AUTHOR
-Asuma Miyoshi
-
-## REFERENCES
-[Yahoo!shopping_API](https://developer.yahoo.co.jp/sample/shopping/)  
-[楽天市場_API](https://webservice.rakuten.co.jp/api/ichibaitemsearch/)
+## 参照
+　[Yahoo!shopping_API](https://developer.yahoo.co.jp/sample/shopping/)  
+　[楽天市場_API](https://webservice.rakuten.co.jp/api/ichibaitemsearch/)
