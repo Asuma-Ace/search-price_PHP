@@ -7,7 +7,7 @@
 
 ## USAGE
 1. ヘッダーの右側にある「**新規会員登録**」ボタンを押して、新規会員登録を行ってください。（会員登録をしなくてもご利用できます）
-2. You need to enter your name, email, password. Then, you complete a registration. 
+2. 「*ユーザー名*」「*メールアドレス*」「*パスワード*」を入力して会員登録を完了させてください。
 3. You press the button "ログイン" at the header of the page and login your account.If you save your email and password, you check the checkbox. 
 4. You enter 'keywords' and select detail conditions (shops, categories and the range of prices) at the top page.  
 5. after you push search button, 20 products related to the keyword you searched for are displayed. they are arranged in order of lower price. If you search for more results, you press the button "次のページへ" at the bottom of the page. 
