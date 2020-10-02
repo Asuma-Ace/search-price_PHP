@@ -1,4 +1,4 @@
-# search_price  
+# search_price
 ## 名前
  最安値検索(yahoo!ショッピング&amp;楽天市場)  
 
@@ -6,7 +6,7 @@
 検索したキーワードに関する商品を「Yahoo!ショッピング」と「楽天市場」から同時に価格の安い順に取得します。
 
 ## USAGE
-1. You press the button "新規会員登録" at the header of the page and register a new membership.
+1. ヘッダーの右側にある「*新規会員登録*」ボタンを押して、新規会員登録を行ってください。（会員登録をしなくてもご利用できます）
 2. You need to enter your name, email, password. Then, you complete a registration. 
 3. You press the button "ログイン" at the header of the page and login your account.If you save your email and password, you check the checkbox. 
 4. You enter 'keywords' and select detail conditions (shops, categories and the range of prices) at the top page.  
