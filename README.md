@@ -1,4 +1,4 @@
-# search_price
+# search_price  
 ## 名前
  最安値検索(yahoo!ショッピング&amp;楽天市場)  
 
@@ -22,7 +22,7 @@ Windows
 ※Linux,Macではテストを行えていません
 
 ## ライセンス
-This software is released under the MIT License, see LICENSE.
+MIT
 
 ## 作者
 三吉 明日真
