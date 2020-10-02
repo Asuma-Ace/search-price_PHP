@@ -8,8 +8,8 @@
 ## USAGE
 1. ヘッダーの右側にある「**新規会員登録**」ボタンを押して新規会員登録を行ってください。（会員登録をしなくてもご利用できます）
 2. 「*ユーザー名*」「*メールアドレス*」「*パスワード*」を入力して会員登録を完了させてください。
-3. ヘッダーの右側にある「**ログイン**」ボタンを押してログインしてください。次回ログインをスムーズに行いたい場合、「**メールアドレスとパスワードを保存**」横のチェックボックスをチェックしてください。
-4. You enter 'keywords' and select detail conditions (shops, categories and the range of prices) at the top page.  
+3. ヘッダーの右側にある「**ログイン**」ボタンを押してログインしてください。次回のログインをスムーズに行いたい場合、「**メールアドレスとパスワードを保存**」横のチェックボックスにチェックしてください。
+4. トップページで「*検索キーワード*」を入力し、「*詳細条件*」を選択してください。その後「**🔍検索**」ボタンを押して検索を行います。
 5. after you push search button, 20 products related to the keyword you searched for are displayed. they are arranged in order of lower price. If you search for more results, you press the button "次のページへ" at the bottom of the page. 
 6. If there are questions, you can send the contact form from "お問い合わせ" at the header of the page.
 
