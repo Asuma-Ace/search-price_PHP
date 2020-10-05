@@ -1,6 +1,6 @@
 # 最安値検索(yahoo!ショッピング&amp;楽天市場)  
 ## アプリケーションURL
-[https://search-price.herokuapp.com](https://search-price.herokuapp.com){:target="_blank"}
+[https://search-price.herokuapp.com](https://search-price.herokuapp.com) {:target="_blank"}
 
 
 ## 概要
@@ -59,5 +59,5 @@ MIT
 三吉 明日真
 
 ## 参照
-[Yahoo!shopping_API](https://developer.yahoo.co.jp/sample/shopping/)  
+[Yahoo!ショッピング_API](https://developer.yahoo.co.jp/sample/shopping/)  
 [楽天市場_API](https://webservice.rakuten.co.jp/api/ichibaitemsearch/)
