@@ -1,6 +1,6 @@
 # 最安値検索(yahoo!ショッピング&amp;楽天市場)  
 ## アプリケーションURL
-https://search-price.herokuapp.com{:target="_blank"}
+[https://search-price.herokuapp.com](https://search-price.herokuapp.com){:target="_blank"}
 
 
 ## 概要
