@@ -22,7 +22,6 @@ https://search-price.herokuapp.com
 
 ## 実装機能
 ### 検索関連
-・「Yahoo!ショッピングAPI」と「楽天市場API」を利用  
 ・キーワード検索機能  
 ・条件絞り込み機能  
 ・ページネーション機能  
