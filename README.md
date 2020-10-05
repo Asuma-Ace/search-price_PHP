@@ -15,6 +15,8 @@ https://search-price.herokuapp.com
 ・jQuery v3.5.1  
 ・MySQL 5.6.35  
 ・Apache  
+・Heroku  
+  ￮ClearDB MySQL  
 ・Yahoo!ショッピングAPI  
 ・楽天市場商品検索API  
 
