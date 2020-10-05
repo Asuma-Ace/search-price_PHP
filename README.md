@@ -1,7 +1,21 @@
 # 最安値検索(yahoo!ショッピング&amp;楽天市場)  
+## アプリケーションURL
+https://search-price.herokuapp.com
 
 ## 概要
 検索したキーワードに関する商品を「Yahoo!ショッピング」と「楽天市場」から同時に価格の安い順に取得します。
+
+## 使用技術
+・PHP 7.2.14
+・HTML5
+・css3
+・Bootstrap v4.5.0
+・JavaScript (ES6)
+・jQuery v3.5.1
+・MySQL 5.6.35
+・Apache
+・Yahoo!ショッピングAPI
+・楽天市場商品検索API
 
 ## 実装機能
 ### 検索関連
