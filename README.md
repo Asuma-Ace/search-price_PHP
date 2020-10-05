@@ -1,6 +1,7 @@
 # 最安値検索(yahoo!ショッピング&amp;楽天市場)  
 ## アプリケーションURL
-https://search-price.herokuapp.com
+https://search-price.herokuapp.com{:target="_blank"}
+
 
 ## 概要
 検索したキーワードに関する商品を「Yahoo!ショッピング」と「楽天市場」から同時に価格の安い順に取得します。
