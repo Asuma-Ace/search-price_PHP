@@ -130,7 +130,7 @@ $token = $_SESSION['token'];
       <!-- mail address -->
 
       <!-- sns -->
-      <div class="card-body text-center snsbox">
+      <!-- <div class="card-body text-center snsbox">
         <h3 class="h3 card-title text-center mt-2">SNSアカウントで登録</h3>
 
         <form method="POST" action="" class="mt-3 sns sns_top">
@@ -151,7 +151,7 @@ $token = $_SESSION['token'];
           </button>
         </form>
 
-      </div>
+      </div> -->
       <!-- sns -->
     </div>
   </div>

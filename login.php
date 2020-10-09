@@ -118,12 +118,12 @@ $token = $_SESSION['token'];
       <!-- mail address -->
 
       <!-- sns -->
-      <div class="card-body text-center snsbox">
-        <h3 class="h3 card-title text-center mt-2">SNSアカウントでログイン</h3>
+      <!-- <div class="card-body text-center snsbox">
+        <h3 class="h3 card-title text-center mt-2">SNSアカウントでログイン</h3> -->
 
         <!-- <div class="g-signin2" data-onsuccess="signOut"></div> -->
 
-        <form method="POST" action="" class="mt-3 sns sns_top">
+        <!-- <form method="POST" action="" class="mt-3 sns sns_top">
           <button class="btn btn-block btn-danger" type="submit">
             <i class="fab fa-google mr-1"></i></i>Googleでログイン
           </button>
@@ -141,7 +141,7 @@ $token = $_SESSION['token'];
           </button>
         </form>
 
-      </div>
+      </div> -->
       <!-- sns -->
 
     </div>
