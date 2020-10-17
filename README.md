@@ -1,5 +1,6 @@
 # 最安値検索(yahoo!ショッピング&amp;楽天市場)  
-現在laravel版も作成中です
+現在laravel版も作成中です  
+https://github.com/Asuma-Samua/Search-Price_Laravel
 ## アプリケーションURL
 https://search-price.herokuapp.com
 
