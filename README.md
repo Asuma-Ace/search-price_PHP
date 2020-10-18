@@ -58,7 +58,7 @@ Windows
 [MIT license](https://opensource.org/licenses/MIT)
 
 ## 作成者
-三吉 明日真
+[三吉 明日真](https://github.com/Asuma-Samua)
 
 ## 参照
 [Yahoo!ショッピング_API](https://developer.yahoo.co.jp/sample/shopping/)  
