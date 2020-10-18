@@ -55,9 +55,9 @@ https://search-price.herokuapp.com
 Windows  
 
 ## ライセンス
-MIT
+[MIT license](https://opensource.org/licenses/MIT)
 
-## 作者
+## 作成者
 三吉 明日真
 
 ## 参照
