@@ -1,5 +1,5 @@
 # 最安値検索(yahoo!ショッピング&amp;楽天市場)  
-laravel版
+（laravel版）
 https://github.com/Asuma-Samua/Search-Price_Laravel
 ## アプリケーションURL
 https://search-price.herokuapp.com
